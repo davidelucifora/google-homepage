@@ -44,6 +44,10 @@
     height:100%;
 }
 
+#searchbar-group:hover{
+    box-shadow:1px 1px 6px #CCC;
+}
+
 #searchbar{
     border:none;    
     max-height:35px;
@@ -137,19 +141,22 @@
     color:#555;
 }
 
-/*STYLING RESULTS COUNTER*/
-
 #main{
     width:40vw;
     margin-left:12rem;
 }
+
+/*STYLING RESULTS COUNTER*/
+
 .results-counter
 {
     font-size:14px;
     color:#70757a;
 }
 
-#image-results{
+/*STYLING SUGGESTION RESULT*/
+
+#suggestion-box{
     
     border:1px solid #DDD;
     display:flex;
@@ -157,28 +164,141 @@
     border-radius:10px;
     width:650px;
     justify-content:flex-start;
-    padding:1rem;
+    padding:1rem 1rem 1.5rem 1rem;
 }
 #img-grid{
     display:flex;
+    margin-bottom:2rem;
 
 }
 #img-grid img{
     margin:0 0.1rem;
 }
  h4{
-     font-size:24px;
+     font-size:22px;
      font-weight:100;
-     margin-bottom:0;
+     margin:0;
  }
- #image-results p{
+ #suggestion-box p{
      font-size:18px;
  }
- .resulturl{
+
+ /*SEARCH RESULT URLS STYLING*/
+ .urlstructure{
+     display:flex;
+     align-items:center;
+ }
+ .urlstructure{
      font-size:14px;
  }
- .resulturl2{
+ .urlstructure2{
      font-size:14px;
-     color:#888;
-     
+     color:#888;   
  }
+
+ .search-result-link{
+     font-size:22px;
+     margin-top:1rem;
+     text-decoration:none;
+     color:#609;
+     margin-top:0;
+ }
+
+  /*Questions Box*/
+
+  #questions-box{
+    padding:1rem 0;
+    margin-top:2rem;
+    border:1px solid #DDD;
+    display:flex;
+    flex-flow:column wrap;
+    border-radius:10px;
+    width:650px;
+    justify-content:flex-start;
+}
+
+#questions-box h4{
+    border-bottom:1px solid #DDD;
+    padding:0 0 0.5rem 1rem;
+
+}#main{
+    width:40vw;
+    margin-left:12rem;
+}
+
+/*STYLING RESULTS COUNTER*/
+
+.results-counter
+{
+    font-size:14px;
+    color:#70757a;
+}
+
+/*STYLING SUGGESTION RESULT*/
+
+#suggestion-box{
+    
+    border:1px solid #DDD;
+    display:flex;
+    flex-flow:column wrap;
+    border-radius:10px;
+    width:650px;
+    justify-content:flex-start;
+    padding:1rem 1rem 1.5rem 1rem;
+}
+#img-grid{
+    display:flex;
+    margin-bottom:2rem;
+
+}
+#img-grid img{
+    margin:0 0.1rem;
+}
+ h4{
+     font-size:22px;
+     font-weight:100;
+     margin:0;
+ }
+ #suggestion-box p{
+     font-size:18px;
+ }
+
+ /*SEARCH RESULT URLS STYLING*/
+ .urlstructure{
+     display:flex;
+     align-items:center;
+ }
+ .urlstructure{
+     font-size:14px;
+ }
+ .urlstructure2{
+     font-size:14px;
+     color:#888;   
+ }
+
+ .search-result-link{
+     font-size:22px;
+     margin-top:1rem;
+     text-decoration:none;
+     color:#609;
+     margin-top:0;
+ }
+
+  /*Questions Box*/
+
+  #questions-box{
+    padding:1rem 0;
+    margin-top:2rem;
+    border:1px solid #DDD;
+    display:flex;
+    flex-flow:column wrap;
+    border-radius:10px;
+    width:650px;
+    justify-content:flex-start;
+}
+
+#questions-box h4{
+    border-bottom:1px solid #DDD;
+    padding:0 0 0.5rem 1rem;
+
+}
