@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+/*START HEADER STYLING */
+
+#header{
+    display:flex;
+    flex-flow:column wrap;
+    width:100%;
+}
+#header-top{
+    display:flex;
+    padding:1.1rem;
+    align-items:center;
+    align-content:center;
+}
+
+
+/*START LOGO STYLING */
+
+.logo{
+    max-width:100px;
+    height:30px;
+}
+.logo img{
+    width:100%;
+}
+
+/*START SEARCHBAR STYLING */
+
+
+#searchbar-group{
+    display:flex;
+    border:1px solid #dfe1e5;
+    border-radius:25px;
+    width:690px;
+    margin-left:4rem;
+    justify-content:space-between;
+    align-items:center;
+    height:100%;
+}
+
+#searchbar{
+    border:none;    
+    max-height:35px;
+    background:rgba(0,0,0,0);
+    padding-left:1rem;
+    
+    
+}
+::placeholder{
+    color:black;
+    font-family:arial;
+    font-size:16px;
+}
+
+.searchbar-icons{
+    display:flex;
+    list-style:none;
+    align-items:space-evenly;
+}
+.searchbar-icons li{
+    display:inline-block;
+    padding:0 0.3rem;
+    font-size:24px;
+    height:24px;
+}
+
+/*STYLING NAVBAR UNDER SEARCH BAR*/
+
+#navbar ul li{
+    display:inline-block;
+}
+
+/* STYLING TOP RIGHT SETTINGS */
+
+.settings-group{
+    display:flex;
+    justify-self:flex-end;
+    margin-left:auto;
+    align-items:center;
+}
+.settings-group > *{
+    margin:0 0.3rem;
+    text-decoration:none;
+    font-size:24px;
+    color:#555;
+}
