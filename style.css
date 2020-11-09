@@ -69,8 +69,26 @@
 
 /*STYLING NAVBAR UNDER SEARCH BAR*/
 
+#navbar {
+    display:flex;
+    align-content:center;
+    font-family:arial,sans-serif;
+    color:#5f6368;
+
+}
+#navbar a:visited{
+    color:#5f6368;
+}
+
+#navbar ul{
+    display:flex;
+}
+
 #navbar ul li{
-    display:inline-block;
+    display:flex;
+    color:#5f6368;
+    font-size:14px;
+    align-items:center;
 }
 
 /* STYLING TOP RIGHT SETTINGS */
