@@ -217,8 +217,12 @@
     justify-content:flex-start;
 }
 
-#questions-box h4{
+#questions-box header{
+
     border-bottom:1px solid #DDD;
+}
+
+#questions-box h4{
     padding:0 0 0.5rem 1rem;
 
 }#main{
@@ -298,7 +302,50 @@
 }
 
 #questions-box h4{
-    border-bottom:1px solid #DDD;
     padding:0 0 0.5rem 1rem;
 
+}
+
+/*Question Accordions*/
+
+.answer{
+    display:flex;   
+    flex-flow:column wrap;
+    padding:1rem 1rem 1.5rem 1rem;
+    border-bottom:1px solid #DDD;
+    
+}
+
+input[type=checkbox]
+{
+
+    display:none;
+}
+#questions-box ul{
+    margin:0;
+    padding:0;
+}
+li.question{
+    margin-top:1rem;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.question label{
+        display:flex;
+        justify-content:space-between;
+        cursor:pointer;
+         border-bottom:1px solid #DDD;
+         margin:0;
+         padding:0.5rem;
+         transition: ease .5s;
+    }
+
+input + label + .answer{
+    display:none;   
+}
+input:checked + label + .answer{
+    display:flex;
+    transition: 5s ease-in;
 }
