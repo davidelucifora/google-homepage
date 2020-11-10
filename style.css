@@ -95,7 +95,6 @@
 }
 #navbar a:visited{
     color:#5f6368;
-    border-bottom: 3px solid #1a73e8;
 }
 #navbar ul li a.active{
     border-bottom: 3px solid #1a73e8;
@@ -377,4 +376,5 @@ footer{
     display:flex;
     justify-content:center;
     align-items:center;
+
 }
