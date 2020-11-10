@@ -2,8 +2,11 @@
     box-sizing: border-box;
     font-family:arial, sans-serif;
 }
+#container{
+    display:flex;
+    flex-flow:column wrap;
+}
 
-/*START HEADER STYLING */
 
 #header{
     display:flex;
@@ -348,4 +351,30 @@ input + label + .answer{
 input:checked + label + .answer{
     display:flex;
     transition: 5s ease-in;
+}
+/*END OF QUESTIONS ACCORDION*/
+
+/*START OF SEARCH RESULTS*/
+
+#search-results{
+    width:35vw;
+    margin-left:12rem;
+    margin-bottom:4rem;
+
+}
+#search-results p{
+    color:#666;
+}
+
+#search-results span{
+    margin-top:1.5rem;
+}
+
+footer{
+    height:100px;
+    background-color:#DDD;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
