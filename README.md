@@ -1,5 +1,6 @@
 # Google Homepage
 A Google Homepage replica for Odin Project
+[Live Version](https://davidelucifora.github.io/google-homepage)
 
 
 ****************************************
